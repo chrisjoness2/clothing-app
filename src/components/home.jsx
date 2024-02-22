@@ -1,5 +1,5 @@
-import wmnTop from '../images/6.jpg';
-import wmnDress from '../images/3.jpg';
+import wmnTop from '../images/homeTops.jpg';
+import wmnDress from '../images/homeDresses.jpg';
 import { Link } from 'react-router-dom';
 
 
