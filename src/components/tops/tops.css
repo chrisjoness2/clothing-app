@@ -1,0 +1,44 @@
+.topsTitle{
+    margin-top: 120px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Shadows Into Light", cursive;
+}
+
+.topsProducts{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px, auto));
+    place-items: center;
+    margin: 90px 90px 60px;
+}
+
+
+.productNamePrice {
+    text-align: left;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+
+}
+
+.miniPrice{
+    position: relative;
+    bottom: 60px;
+    text-align: right;
+    width: 10%;
+    float: right;
+    right: 20px;
+}
+
+.topsImgs{
+    height: 450px;
+    width: 350px;
+}
+
+
+
+.topName a:hover {
+    text-decoration: underline;
+}

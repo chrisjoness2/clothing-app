@@ -13,6 +13,9 @@
   background-color: white;
 }
 
+.navLink:hover{
+  color: grey;
+}
 
 a {
   text-decoration: none;
@@ -89,6 +92,11 @@ section{
   line-height: 6rem;
   font-family: "Shadows Into Light", cursive;
 
+}
+
+
+.allDresses{
+  margin-top: 300px;
 }
 
 
