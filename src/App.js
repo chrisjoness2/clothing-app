@@ -4,6 +4,7 @@ import Home from './components/home';
 import Cart from './components/cart';
 import TopsPage from './components/tops/topsPage';
 import Navbar from './components/navbar';
+import DressesPage from './components/dresses/dressesPage';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/cart" element={<Cart/>} />
         <Route path="/tops" element={<TopsPage/>} />
+        <Route path="/dresses" element={<DressesPage/>} />
+
       </Routes>
     </div>
   );

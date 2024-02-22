@@ -22,8 +22,8 @@ export const TopsProducts = [
         id: 1,
         productName: <Link to="/top1"> Blue Top </Link>,
         price: "22",
-        tops: '/top1',
-        topImg: <img className="topsImgs" src={top1Hov}
+        productPage: '/top1',
+        Img: <img className="topsImgs" src={top1Hov}
         onMouseOver={e => (e.currentTarget.src=top1)}
         onMouseOut={e => (e.currentTarget.src=top1Hov)} />
 },
@@ -31,8 +31,8 @@ export const TopsProducts = [
         id: 2,
         productName: <Link to="/top2"> Orange Top </Link>,
         price: "22",
-        tops: "/top2",
-        topImg: <img className="topsImgs" src={top2Hov}
+        productPage: "/top2",
+        Img: <img className="topsImgs" src={top2Hov}
         onMouseOver={e => (e.currentTarget.src=top2)}
         onMouseOut={e => (e.currentTarget.src=top2Hov)} />
 
@@ -42,8 +42,8 @@ export const TopsProducts = [
         id: 3,
         productName: <Link to="/top3"> Green Top </Link>,
         price: "22",
-        tops: "/top3",
-        topImg: <img className="topsImgs" src={top3Hov}
+        productPage: "/top3",
+        Img: <img className="topsImgs" src={top3Hov}
         onMouseOver={e => (e.currentTarget.src=top3)}
         onMouseOut={e => (e.currentTarget.src=top3Hov)} />
 },
@@ -51,8 +51,8 @@ export const TopsProducts = [
         id: 4,
         productName: <Link to="/top4"> Yellow Top </Link>,
         price: "22",
-        tops: "/top4",
-        topImg: <img className="topsImgs" src={top4Hov}
+        productPage: "/top4",
+        Img: <img className="topsImgs" src={top4Hov}
         onMouseOver={e => (e.currentTarget.src=top4)}
         onMouseOut={e => (e.currentTarget.src=top4Hov)} />
 },
@@ -60,8 +60,8 @@ export const TopsProducts = [
         id: 5,
         productName: <Link to="/top5"> Black Top </Link>,
         price: "22",
-        tops: "/top5",
-        topImg: <img className="topsImgs" src={top5Hov}
+        productPage: "/top5",
+        Img: <img className="topsImgs" src={top5Hov}
         onMouseOver={e => (e.currentTarget.src=top5)}
         onMouseOut={e => (e.currentTarget.src=top5Hov)} />
 },
@@ -69,8 +69,8 @@ export const TopsProducts = [
         id: 6,
         productName: <Link to="/top6"> White Top </Link>,
         price: "22",
-        tops: "/top6",
-        topImg: <img className="topsImgs" src={top6Hov}
+        productPage: "/top6",
+        Img: <img className="topsImgs" src={top6Hov}
         onMouseOver={e => (e.currentTarget.src=top6)}
         onMouseOut={e => (e.currentTarget.src=top6Hov)} />
 },
@@ -78,8 +78,8 @@ export const TopsProducts = [
         id: 7,
         productName: <Link to="/top7"> Pink Top </Link>,
         price: "22",
-        tops: "/top7",
-        topImg: <img className="topsImgs" src={top7Hov}
+        productPage: "/top7",
+        Img: <img className="topsImgs" src={top7Hov}
         onMouseOver={e => (e.currentTarget.src=top7)}
         onMouseOut={e => (e.currentTarget.src=top7Hov)} />
 },
@@ -87,8 +87,8 @@ export const TopsProducts = [
         id: 8,
         productName: <Link to="/top8"> Purple Top </Link>,
         price: "22",
-        tops: "/top8",
-        topImg: <img className="topsImgs" src={top8Hov}
+        productPage: "/top8",
+        Img: <img className="topsImgs" src={top8Hov}
         onMouseOver={e => (e.currentTarget.src=top8)}
         onMouseOut={e => (e.currentTarget.src=top8Hov)} />
 },

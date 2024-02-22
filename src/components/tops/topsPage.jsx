@@ -3,8 +3,6 @@ import { TopsProducts } from './topsProducts';
 import '../tops/tops.css';
 
 
-
-
 function TopsPage() {
     return (
         <div className="container">
