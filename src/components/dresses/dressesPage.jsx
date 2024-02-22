@@ -1,14 +1,16 @@
 import { Products } from '../../shop/productsTemplate';
-import { TopsProducts } from './topsProducts';
+import { DressesProducts } from './dressesProducts';
+import '../dresses/dresses.css';
+
 
 function DressesPage() {
     return (
         <div className="container">
             <div className="topsTitle"> 
-                <h1> Tops </h1> 
+                <h1> Dresses </h1> 
             </div>
              <div className="topsProducts"> 
-             {TopsProducts.map((product) => (
+             {DressesProducts.map((product) => (
                     <Products data= {product} />
                 ))}
             </div>
