@@ -10,14 +10,13 @@ function Navbar() {
     }
     return(
         <div>
-
                 <ul className="navbar"> 
                     <li> <NavLink to="/"> <h1 className="logo"> ΌMΟRFΟ  </h1> </NavLink> </li>
                     <li> <NavLink  className="navLink" style={navLinksStyle} to="/tops"> Tops </NavLink> </li>
                     <li> <NavLink className="navLink" style={navLinksStyle} to="/dresses"> Dresses </NavLink> </li>
                     <li> <NavLink className="shoppingBagIcon" style={navLinksStyle} to="/cart"> <AiOutlineShopping size={32} /> </NavLink> </li>
+                    <hr className="horizontalLine"/>
                 </ul> 
-        
         </div>
     )
 };

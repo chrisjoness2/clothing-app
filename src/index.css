@@ -1,7 +1,9 @@
 .navbar li{
+  position: relative;
   display: inline-flex;
   padding: 0 20px 0 20px;
   padding-bottom: 10px;
+  left: 50px;
 }
 
 .navbar {
@@ -9,8 +11,10 @@
   z-index: 1;
   width: 100%;
   top: 0;
+  left: 0;
   margin-top: 0;
   background-color: white;
+  padding-left: 0;
 }
 
 .navLink:hover{
@@ -37,11 +41,14 @@ a {
   top: 5px;
 }
 
-.container{
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
+hr.horizontalLine{
+  border-top: 1px solid black;
+  width: 100%;
+  margin-bottom: 0;
+  border-bottom-width: 0;
 }
+
+
 
 
 
@@ -50,10 +57,29 @@ section{
   height: 100vh;
   width: 100vh;
   padding: 0 0 10px ;
-  scroll-snap-align: start;
-  left: 15%;
+  left: 16.5%;
 }
 
+.footer{
+  position: relative;
+  background-color: #F3EEEA;
+  height: 150px;
+  bottom: 0;
+  text-align: center;
+}
+
+.footerCopyright{
+  position: relative;
+  top: 40px;
+}
+
+.icons{
+  position: relative;
+  padding: 10px;
+  font-size: 1.3rem;
+  top: 30px;
+  display: inline;
+}
 
 
 .homeImgs{
