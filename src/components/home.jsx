@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
     return (
+      <div>
         <div className='container'>
             <section> 
               <Link to="/tops"> 
@@ -20,8 +21,11 @@ function Home() {
                 <div className='shopDressesTxt'> <h1> Shop Dresses </h1> </div> 
               </Link>
             </section>
+
             
         </div>
+        
+      </div>
     )
 };
 
